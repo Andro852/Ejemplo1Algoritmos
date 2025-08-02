@@ -11,11 +11,13 @@ public class GITHUB {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String nombre, edad;
+        String nombre, edad, telefono;
         Scanner lector=new Scanner(System.in);
         System.out.println("ingrese su nombre ");
         nombre=lector.next();
         System.out.println("Ingrese su edad");
-        edad=lector.next();       
+        edad=lector.next();
+        System.out.println("Ingrese su telefono ");
+        telefono=lector.next();
     }
 }
